@@ -1,0 +1,109 @@
+.p {
+	font-size: 16px;
+	font-family: poppins, serif;
+	color: rgb(37, 77, 138);
+    word-spacing: 1mm;
+    line-height: 110%;
+}
+a:hover {
+    color: aqua;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+a:link {
+    color: black;
+    font-size: 16px;
+    font-weight: bolder;
+}
+a:visited {
+    color: red;
+    font-weight: 300;
+    font-style: oblique;
+}
+body {
+    width: 90%;
+    margin: auto;
+}
+blockquote {
+    width: 50%;
+    font-size: 160%;
+    margin: auto;
+    text-align: center;
+    font-family: poppins;
+    background-color: rgb(166, 160, 160);
+    border-left: 3px;
+    border-color: firebrick;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    font-style: italic;
+}
+.Madeinchina{
+    background-repeat: no-repeat;
+    width: 20%;
+    height: 20%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.bad {
+    
+    color: red;
+}
+.good {
+    content-visibility: "good";
+    color: green;
+}
+.boxone {
+    display: flexbox;
+    align-items: baseline;
+    margin: 0%;
+    background-color: white;
+
+}
+.boxtwo {
+    display: flexbox;
+    margin: 0%;
+    background-color: grey;
+}
+.boxthree{
+    display: flexbox;
+    margin: 0%;
+    background-color: white;
+}
+.h1style {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 600;
+}
+.boxfour{
+    display: flexbox;
+    margin: 0%;
+    background-color: gray;
+}
+.headerlike{
+    background-color: rgb(252, 252, 179);
+    text-align: center;
+}
+.discussion1{
+    background-color: rgba(0, 0, 0, 0.13);
+    color:  rgba(255, 255, 255, 0.804);
+    padding: 5px;
+    border-color: gold;
+    text-align: center;
+    margin-left: 40%;
+    margin-right: 40%;
+    font-style: italic;
+    border-radius: 20%;
+}
+.discussion2{
+    background-color: rgba(255, 255, 255, 0.804);
+    color: rgba(0, 0, 0, 0.13);
+    padding: 5px;
+    border-color: gold;
+    text-align: center;
+    margin-left: 40%;
+    margin-right: 40%;
+    font-style: italic;
+}
